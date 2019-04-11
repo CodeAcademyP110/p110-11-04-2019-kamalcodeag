@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #E0E1E1;
+    height: 5000px;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+#slider{
+    width: 800px;
+    margin: 50px auto;
+}
+.window{
+    width: 800px;
+    overflow: hidden;
+}
+.lenta{
+    display: flex;
+    width: 5600px;
+    position: relative;
+    left: 0;
+    transition: all 1s linear;
+}
+.lenta li{
+    width: 800px;
+}
+.lenta img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.arrow_wrapper{
+    text-align: center;
+    font-size: 1.3rem;
+    color: #555;
+    cursor: pointer;
+}
